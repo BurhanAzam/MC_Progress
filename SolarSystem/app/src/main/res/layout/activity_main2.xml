@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
+    tools:context=".MainActivity2">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/comets"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:text="Comets"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/asteriods"
+        app:layout_constraintStart_toStartOf="@+id/asteriods"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sun"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:text="Sun"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/planets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/planets"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="240dp"
+        android:text="Planets"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintBottom_toTopOf="@+id/asteriods"
+        app:layout_constraintEnd_toEndOf="@+id/sun"
+        app:layout_constraintStart_toStartOf="@+id/sun"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/asteriods"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="36dp"
+        android:text="asteroids"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintBottom_toTopOf="@+id/comets"
+        app:layout_constraintEnd_toEndOf="@+id/planets"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
