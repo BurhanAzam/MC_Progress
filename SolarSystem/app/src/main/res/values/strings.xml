@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SolarSystem</string>
+    <string name="a_planet_is_a_large_object_such_as_venus_or_earth_that_orbits_a_star_planets_are_smaller_than_stars_and_they_do_not_produce_light_jupiter_is_the_biggest_planet_in_the_solar_system_planets_are_shaped_like_a_slightly_squashed_ball_called_a_spheroid_objects_that_orbit_planets_are_called_satellites_a_star_and_everything_which_orbits_it_are_called_a_star_system">A planet is a large object such as Venus or Earth that orbits a star. Planets are smaller than stars, and they do not produce light. Jupiter is the biggest planet in the Solar System. Planets are shaped like a slightly squashed ball (called a spheroid). Objects that orbit planets are called satellites. A star and everything which orbits it are called a star system.</string>
 </resources>

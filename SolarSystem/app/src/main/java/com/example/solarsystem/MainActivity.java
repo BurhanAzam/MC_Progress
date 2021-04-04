@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,15 +17,15 @@ public class MainActivity extends AppCompatActivity {
     ImageView planet;
     ImageView dot;
     ImageView comet;
-    ImageView text;
+    TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         topAnimation= AnimationUtils.loadAnimation(this,R.anim.top_animation);
-
         planet=findViewById(R.id.imageView);
         comet=findViewById(R.id.imageView3);
         text=findViewById(R.id.imageView2);
